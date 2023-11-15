@@ -16,7 +16,6 @@ export const MapScreen = ({ navigation }) => {
   const { viewport, lat, lng } = location;
   const { restaurants = [] } = useContext(RestaurantsContext);
   const [latDelta, setLatDelta] = useState(0);
-  console.log({ viewport });
 
   useEffect(() => {
     const northeastLat = viewport.northeast.lat;
