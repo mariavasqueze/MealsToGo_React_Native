@@ -2,7 +2,6 @@
 
 # dependencies
 node_modules/
-
 # Expo
 .expo/
 dist/
@@ -30,6 +29,10 @@ yarn-error.*
 
 # local env files
 .env*.local
+/src/utils/env.ts
 
 # typescript
 *.tsbuildinfo
+firebase-debug.log
+ui-debug.log
+.runtimeconfig.json

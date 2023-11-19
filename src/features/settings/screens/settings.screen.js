@@ -42,7 +42,7 @@ export const SettingsScreen = ({ navigation }) => {
   useFocusEffect(
     useCallback(() => {
       getProfilePicture(user);
-    }, [user])
+    }, [user]),
   );
 
   return (
