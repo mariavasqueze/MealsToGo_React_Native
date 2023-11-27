@@ -3,7 +3,7 @@ import { placesHost, isMock } from "../../utils/envs";
 
 export const restaurantsRequest = (location = "37.7749295,-122.4194155") => {
   return fetch(
-    `${placesHost}/placesNearBy?location=${location}&mock=${isMock}`,
+    `${placesHost}/placesNearby?location=${location}&mock=${isMock}`,
   ).then((res) => {
     return res.json();
   });

@@ -10,9 +10,9 @@ export const CartContextProvider = ({ children }) => {
 
   const [cart, setCart] = useState([]);
   const [restaurant, setRestaurant] = useState(null);
-
   const [sum, setSum] = useState(0);
 
+  // takes restaurant, cart, and userId and saves them to async storage
   const saveCart = async (rst, crt, uid) => {
     try {
       const jsonValue = JSON.stringify({ restaurant: rst, cart: crt });
