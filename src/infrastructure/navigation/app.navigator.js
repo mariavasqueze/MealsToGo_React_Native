@@ -54,10 +54,8 @@ export const AppNavigator = () => (
               },
               headerShown: false,
             }}
-            tabBarOptions={{
-              activeTintColor: colors.brand.primary,
-              inactiveTintColor: colors.brand.muted,
-            }}
+            tabBarActiveTintColor={colors.brand.primary}
+            tabBarInactiveTintColor={colors.brand.muted}
           >
             <Tab.Screen
               name="Restaurants"

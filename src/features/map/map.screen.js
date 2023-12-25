@@ -72,5 +72,5 @@ export const MapScreen = ({ navigation }) => {
       />
     );
   }
-  return <RestaurantMap navogation={navigation} />;
+  return <RestaurantMap navigation={navigation} />;
 };
